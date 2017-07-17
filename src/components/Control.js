@@ -11,9 +11,8 @@ class Control extends Component {
 
     render() {
         return (
-            <div>
-                <button>Edit</button>
-                <button>Delete</button>
+            <div >
+
             </div>
         );
     }

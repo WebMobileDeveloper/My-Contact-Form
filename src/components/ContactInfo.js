@@ -17,7 +17,7 @@ class ContactInfo extends Component {
     render() {
         return (
             <div>
-                <span>{this.props.contact.name}</span>
+                <span onClick={this.props.onClick}>{this.props.contact.name}</span>
             </div>
         );
     }
